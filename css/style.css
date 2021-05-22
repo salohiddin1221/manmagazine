@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* == mobile navbar== */
+.mobile_nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    left: 10%;
+    background: rgba(128, 128, 128, 0.911);
+    box-sizing: border-box;
+    padding: 10%;
+    top: 50px;
+    display: none;
+}
+.mobile_nav a{
+    color:   #FFFFFF;
+    font-size: 14px;
+    font-weight:   400;
+    text-decoration: none;
+   margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.fa-bars{
+    display: none;
+}
+
+
+
+
+
+
+/* == mobile navbar== */
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+/* == top footer section == */
+
+.top-footer__back
+{
+    background:  #000000;
+}
+.top-footer
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.log-in, .top-date{
+    display: flex;
+    align-items: center;
+    
+}
+.top-date p
+{
+color: #969696;
+font-size: 12px;
+}
+.log-in a , .log-in span{
+    text-decoration: none;
+    color: #969696;
+    font-size: 12px;
+}
+.top-date img, .log-in img{
+    margin-right: 10px;
+}
+
+
+/* == navbar section == */
+
+.nav-back{
+    background: #0F0F0F;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.nav-links a{
+    color:   #FFFFFF;
+    font-size: 14px;
+    font-weight:   400;
+    text-decoration: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+/* == main section== */
+
+.main{
+    background: url('/images/Rectangle\ 3\ \(1\).png') ;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+.main-center{
+    border: 4px solid #FFFFFF;
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 100px ;
+}
+.cen-logo{
+    border-bottom: 2px solid #FFFFFF;
+    width: 50%;
+    margin:  auto;
+
+}
+.cen-logo img{
+    width: 100%;
+}
+.main-center p
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-info{
+    width: 50%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+     margin: 50px auto 0;
+}
+
+/* == sezon section==*/
+.sezon_grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.sezon_1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #000000;
+    padding: 50px 0;
+}
+.sezon_items{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+}
+.sezon_item img{
+    width: 100%;
+}
+.sezon_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.sezon_line{
+    border-bottom: 1px solid #FFFFFF;
+    width: 80px;
+    margin: 30px auto ;
+}
+.item_img{
+    background: #191B1C;
+}
+.sezon_item p, .sezon_item h3{
+    color: #D0D0D0;
+    text-align: left;
+    margin: 10px 0;
+}
+.sezon_2{
+    position: relative;
+}
+.sezon_2 img{
+    width: 100%;   
+    height: 100%;
+}
+.sezon_2_info{
+    position: absolute;
+    z-index: 12;
+   bottom: 80px;
+  
+   left: 30%;
+    text-align: center;
+}
+.sezon_info_button{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background: transparent;
+    padding: 12px 28px;
+    color: #FFFFFF;
+}
+
+.kolleksiya{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.kol_1 img{
+    width: 100%;
+    height: 100%;
+}
+.kol_2{
+    background: #000000;
+    text-align: center;
+    padding: 40px 0;
+}
+.kol_info{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.new_back{
+    background: #000000;
+    padding: 70px 0;
+}
+.new_items{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
+    box-sizing: border-box;
+}
+.sezon_item{
+    margin: 5px;
+}
+.brend_back{
+    background: #0F0F0F;
+    padding: 50px 0;
+}
+.brend_names{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.brend_names img{
+    width: 100%;
+}
+.footer_back{
+    background: url('/images/Rectangle\ 15.png');
+    padding: 50px 0;
+}
+footer{
+    display: grid;
+    grid-template-columns:  33.3% 33.3% 33.3%;
+}
+.footer_title{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.about_shop p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-style: normal;
+    margin: 30px 30px 0 0;
+}
+.footer_form p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-style: normal;
+    margin: 40px 0;
+}
+.footer_form form input{
+    padding: 10px 20px;
+    align-items: center;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.4);
+   border: none;
+}
+.footer_form form  button{
+    padding: 10px 20px;
+    align-items: center;
+    border: none;
+    width: 40%;
+    color: #FFFFFF;
+    background: #0F0F0F;
+}
+input::placeholder{
+    color: #FFFFFF;
+  
+}
+.kat_links{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.kat_links a{
+    padding: 10px 20px;
+    background: #0F0F0F;
+    color: #D0D0D0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 5px;
+}
+
+
+@media screen  and (max-width:1200px) {
+
+        .container{
+            width:90%;
+        }
+
+}
+
+@media screen  and (max-width:991px) {
+
+    .sezon_grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .kolleksiya {
+        display: flex;
+        flex-direction: column;
+    }
+    .kol_2{
+        order: 1;
+    }
+    .kol_1{
+        order: 3;
+    }
+    .kol_1 img{
+        height: 100%;
+    }
+    .brend_names {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .footer_form{
+        margin-top: 30px;
+    }
+}
+    
+
+@media screen  and (max-width:768px) {
+
+    .container{
+        width:98%;
+    }
+    .top-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+     .log-in{
+         margin-top: 10px;
+     }
+     .mobile_nav{
+         transition: all .5s ease;
+         z-index: 23;
+     }
+     .nav-links{
+         display: none;
+     }
+     .fa-bars{
+         display: block;
+         color: #FFFFFF;
+         margin:  0 20px;
+         cursor: pointer;
+         font-size: 20px;
+     }
+     .fa-xing{
+        color: #FFFFFF;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+     }
+     .main-info{
+         width: 95%;
+     }
+     .sezon_items{
+         grid-template-columns: 50% 50%;
+         padding:  20px;
+     }
+     .sezon_2_info {
+         left: 20%;
+     }
+     .kol_info{
+         width: 95%;
+     }
+     .new_items {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        box-sizing: border-box;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 20px;
+    }
+    .footer_title{
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen  and (max-width:430px) {
+
+    .main-center {
+        width: 80%;
+        height: 280px;
+    }
+
+}
